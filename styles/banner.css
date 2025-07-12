@@ -65,8 +65,6 @@ body{
 }
 
 
-
-
 .banner-content{
   text-align: center;
 
@@ -138,17 +136,38 @@ mein{
   font-weight: bold;
   color: #3b36d6;
   font-size:xx-large;
+  font-size: 80px;
+  gap: 158px;
 }
 .item-description{
    font-size: 20px;
    color: #3d2d2d;
-   margin: 0;
+ 
 
 }
 .title-item{
   margin-top: 0;
+  gap: 0px;
 }
 /*footer design*/
+/* Footer Container */
+footer {
+  background-color: #f4f8f8;
+  color: #bb7070;
+  padding: 60px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content:space-between;
+}
+
+/* Left Column - Contact Form */
 footer{
   padding: 130px 230px;
   display:flex;
@@ -158,41 +177,133 @@ footer{
  
 }
 .footer-column{
-  font-weight: bold ;
-  font-size: 50px;
-  line-height: 120%;
+  font-weight:600px;
+  font-size: 16px;
+  line-height: 100%;
   color: #000000;
   width: 50%;
-  padding: 200px 0 200px 0; 
-
-
-}
-form label {
+  line-height: normal;
   display: block;
-  margin-bottom: 0px;
-  font-weight: 600;
-  color: #333;
-  margin-top: 20px;
-  font-size: medium;
-  font-weight: 900px;
-  gap: 0;
+  padding: 200px 0 200px 0; 
 }
+.font{
+  text-align: left;
+  
+}
+
+
 form input[type="email"],
 form input[type="button"],
 form input[type="text"],
 form textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #885555;
   border-radius: 8px;
   box-sizing: border-box;
   font-size: 16px;
   
 }
+
+/* Right Column - Footer Links */
+/* Footer Base */
+.footer {
+  background-color: #ebe5e5;
+  color: #4b0202;
+  padding:  200px 200px;font-family: 'Raleway', sans-serif;
+}
+
+/* Footer Title Container */
+.footer-container{
+display: flex;
+
+}
+.footer-column {
+  font-size: 24px;
+  font-weight: 900;
+ text-align:left;
+ 
+}
+
+/* Description Text */
+.footer-title p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Footer Links */
+
+/* Footer Copy */
+.box-footer {
+  background-color: #93c0ce;
+  color: rgb(27, 13, 230);
+  padding: 150px 200px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.tr-lg h3 {
+  font-size: 35px;
+  font-weight:bolder;
+  margin-bottom: 200px;
+}
+
+.tr-lg ul {
+  list-style: none;
+  padding: 50px;
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tr-lg ul li a {
+  text-decoration: none;
+  color: rgb(8, 3, 3);
+  font-weight: 800px;
+  transition: color 0.3s ease;
+}
+
+.tr-lg ul li a:hover {
+  color: #00bcd4;
+}
+
+.footer-copy {
+  font-size: 16px;
+  color: #790707;
+}
+
+.btnn-primary{
+
+}
+
+.button-primary{
+  background-color:#4E47FF;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #885555;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+   cursor: pointer;
+
+}
+.button-primary:hover {
+  background-color: #097961;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(243, 148, 148, 0.2);
+
+  
+}
+
 .text-center{
  text-align: center;
 }
-.reviers-container{
+/*review*/
+.reviews-container{
   display:flex;
   gap: 24px;
 }
@@ -223,7 +334,12 @@ object-fit: cover;
 .review-inline {
   display: flex;
   
-  gap: 10px; /* spacing between avatar, name, and date */
+  gap: 10px; 
+}
+.final-ftr{
+  color: #4863d8;
+  align-items: center;
+  background-color: bisque;
 }
 
 
