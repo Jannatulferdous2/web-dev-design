@@ -292,11 +292,10 @@ display: flex;
 
 }
 .button-primary:hover {
-  background-color: #097961;
+  background-color: #be1eb1;
   transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(243, 148, 148, 0.2);
+  box-shadow: 0 4px 10px rgba(245, 44, 44, 0.2);
 
-  
 }
 
 .text-center{
